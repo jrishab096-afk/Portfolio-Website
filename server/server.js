@@ -3,33 +3,29 @@ import cors from 'cors';
 import { generatePortfolioHTML } from './utils/portfolioGenerator.js';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import Portfolio from './models/Portfolio.js';
 
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Connect to MongoDB
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/portfolioforge';
+// Database Connection
+const MONGODB_URI = process.env.MONGODB_URI;
 
-mongoose.connect(MONGODB_URI)
-  .then(() => {
-    console.log('✅ Connected to MongoDB Atlas');
-    console.log('Database Name:', mongoose.connection.name);
-  })
-  .catch(err => {
-    console.error('❌ MongoDB Connection Error:', err);
-    console.error('Check your MONGODB_URI in the Render environment variables.');
-  });
-
-// Portfolio Schema
-const portfolioSchema = new mongoose.Schema({
-  id: { type: String, required: true, unique: true },
-  data: { type: Object, required: true },
-  createdAt: { type: Date, default: Date.now }
-});
-
-const Portfolio = mongoose.model('Portfolio', portfolioSchema);
+if (!MONGODB_URI || MONGODB_URI.includes('cluster.mongodb.net')) {
+  console.error('❌ MONGODB_URI is not set or is still the placeholder.');
+} else {
+  mongoose.connect(MONGODB_URI)
+    .then(() => {
+      console.log('✅ Connected to MongoDB Atlas');
+      console.log('Database Name:', mongoose.connection.name);
+    })
+    .catch(err => {
+      console.error('❌ MongoDB Connection Error:', err);
+      console.error('Check your MONGODB_URI in the environment variables.');
+    });
+}
 
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
