@@ -18,6 +18,29 @@ export default function Launch() {
   const { data, updateData, prevStep, isSubmitting, setIsSubmitting, deployUrl, setDeployUrl } = usePortfolio();
   const [showPreview, setShowPreview] = useState(false);
   const [previewHtml, setPreviewHtml] = useState('');
+  const [backendStatus, setBackendStatus] = useState('checking'); // 'checking', 'connected', 'error', 'disconnected'
+
+  // Check Backend Health
+  useEffect(() => {
+    const checkHealth = async () => {
+      try {
+        const res = await fetch(`${API_BASE_URL}/api/health`);
+        const result = await res.json();
+        if (res.ok && result.database === 'connected') {
+          setBackendStatus('connected');
+        } else if (res.ok && result.database === 'disconnected') {
+          setBackendStatus('error');
+        } else {
+          setBackendStatus('disconnected');
+        }
+      } catch (err) {
+        setBackendStatus('disconnected');
+      }
+    };
+    checkHealth();
+    const interval = setInterval(checkHealth, 30000); // Check every 30s
+    return () => clearInterval(interval);
+  }, []);
 
   // Close preview on Escape key
   useEffect(() => {
@@ -78,8 +101,23 @@ export default function Launch() {
     <>
       <div className="max-w-3xl mx-auto w-full pb-32">
         <div className="mb-12">
-          <div className="inline-block px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-bold tracking-wider text-secondary mb-4">
-            Final Step
+          <div className="flex items-center justify-between gap-4 mb-4">
+            <div className="inline-block px-3 py-1 bg-white/5 border border-white/10 rounded-full text-xs font-bold tracking-wider text-secondary">
+              Final Step
+            </div>
+            
+            {/* Backend Status Badge */}
+            <div className={`px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase border transition-all duration-500 ${
+              backendStatus === 'connected' ? 'bg-green-500/10 text-green-400 border-green-500/20' : 
+              backendStatus === 'error' ? 'bg-orange-500/10 text-orange-400 border-orange-500/20' :
+              backendStatus === 'checking' ? 'bg-blue-500/10 text-blue-400 border-blue-500/20 animate-pulse' :
+              'bg-red-500/10 text-red-400 border-red-500/20'
+            }`}>
+              {backendStatus === 'connected' ? '● Server Online' : 
+               backendStatus === 'error' ? '● DB Disconnected' :
+               backendStatus === 'checking' ? '○ Checking Server...' :
+               '● Server Offline'}
+            </div>
           </div>
           <h1 className="font-display text-4xl md:text-5xl font-bold mb-4 tracking-tight text-white drop-shadow-md">
             Preview & <span className="text-gradient drop-shadow-lg">Launch</span>
