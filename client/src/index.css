@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-darkBg text-slate-200 antialiased min-h-screen overflow-x-hidden;
+  }
+}
+
+@layer utilities {
+  .bg-glow {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    z-index: -1;
+    background: 
+      radial-gradient(ellipse at 15% 50%, rgba(139, 92, 246, 0.15) 0%, transparent 50%),
+      radial-gradient(ellipse at 85% 30%, rgba(6, 182, 212, 0.15) 0%, transparent 50%);
+  }
+  
+  .glass-card {
+    @apply bg-darkCard/80 backdrop-blur-md border border-white/5 rounded-2xl;
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+}

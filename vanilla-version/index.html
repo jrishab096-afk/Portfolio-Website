@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Davox – Build Your Portfolio</title>
+  <meta name="description" content="Create a stunning personal portfolio website in minutes with Davox. Fill in your details and get a deployable portfolio URL instantly." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background particles -->
+  <div class="bg-particles" id="bgParticles"></div>
+
+  <!-- App Wrapper -->
+  <div class="app-wrapper">
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-logo">
+        <img class="logo-image" src="davox_logo.png" alt="Davox Logo" />
+      </div>
+
+      <nav class="sidebar-nav">
+        <div class="step-item active" data-step="1" id="nav-step-1">
+          <div class="step-num">1</div>
+          <div class="step-label">
+            <span class="step-title">Personal Info</span>
+            <span class="step-sub">Name, bio & links</span>
+          </div>
+          <div class="step-check" id="check-1">✓</div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step-item" data-step="2" id="nav-step-2">
+          <div class="step-num">2</div>
+          <div class="step-label">
+            <span class="step-title">Education</span>
+            <span class="step-sub">Degrees & courses</span>
+          </div>
+          <div class="step-check" id="check-2">✓</div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step-item" data-step="3" id="nav-step-3">
+          <div class="step-num">3</div>
+          <div class="step-label">
+            <span class="step-title">Experience</span>
+            <span class="step-sub">Jobs & internships</span>
+          </div>
+          <div class="step-check" id="check-3">✓</div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step-item" data-step="4" id="nav-step-4">
+          <div class="step-num">4</div>
+          <div class="step-label">
+            <span class="step-title">Skills</span>
+            <span class="step-sub">Tech & tools</span>
+          </div>
+          <div class="step-check" id="check-4">✓</div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step-item" data-step="5" id="nav-step-5">
+          <div class="step-num">5</div>
+          <div class="step-label">
+            <span class="step-title">Projects</span>
+            <span class="step-sub">Achievements & work</span>
+          </div>
+          <div class="step-check" id="check-5">✓</div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step-item" data-step="6" id="nav-step-6">
+          <div class="step-num">🚀</div>
+          <div class="step-label">
+            <span class="step-title">Preview & Launch</span>
+            <span class="step-sub">Deploy your portfolio</span>
+          </div>
+          <div class="step-check" id="check-6">✓</div>
+        </div>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="progress-label">
+          <span>Progress</span>
+          <span id="progressPct">0%</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill" id="progressFill"></div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+      <!-- Step 1: Personal Info -->
+      <section class="form-step active" id="step-1">
+        <div class="step-header">
+          <div class="step-badge">Step 1 of 5</div>
+          <h1 class="step-heading">Tell us about <span class="gradient-text">yourself</span></h1>
+          <p class="step-desc">This is the foundation of your portfolio. Make it count.</p>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group full">
+            <label class="form-label">Full Name <span class="req">*</span></label>
+            <input type="text" id="fullName" class="form-input" placeholder="e.g. Alex Johnson" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Professional Title <span class="req">*</span></label>
+            <input type="text" id="title" class="form-input" placeholder="e.g. Full-Stack Developer" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input type="email" id="email" class="form-input" placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Location</label>
+            <input type="text" id="location" class="form-input" placeholder="e.g. San Francisco, CA" />
+          </div>
+          <div class="form-group">
+            <label class="form-label">Phone (optional)</label>
+            <input type="tel" id="phone" class="form-input" placeholder="+1 (555) 000-0000" />
+          </div>
+          <div class="form-group full">
+            <label class="form-label">Bio / About Me <span class="req">*</span></label>
+            <textarea id="bio" class="form-textarea" rows="4" placeholder="Write 2–4 sentences describing who you are, what you do, and what makes you unique..."></textarea>
+            <div class="char-count"><span id="bioCount">0</span>/500</div>
+          </div>
+          <div class="form-group full">
+            <label class="form-label">Profile Photo URL</label>
+            <input type="url" id="photoUrl" class="form-input" placeholder="https://your-photo-url.com/photo.jpg" />
+            <p class="form-hint">💡 Upload to <a href="https://imgbb.com" target="_blank">imgbb.com</a> and paste the direct URL here</p>
+          </div>
+
+          <div class="form-group full">
+            <label class="form-label">Social Links</label>
+            <div class="social-links-grid">
+              <div class="social-input">
+                <span class="social-icon">💼</span>
+                <input type="url" id="linkedin" class="form-input" placeholder="LinkedIn URL" />
+              </div>
+              <div class="social-input">
+                <span class="social-icon">🐙</span>
+                <input type="url" id="github" class="form-input" placeholder="GitHub URL" />
+              </div>
+              <div class="social-input">
+                <span class="social-icon">🐦</span>
+                <input type="url" id="twitter" class="form-input" placeholder="Twitter/X URL" />
+              </div>
+              <div class="social-input">
+                <span class="social-icon">🌐</span>
+                <input type="url" id="website" class="form-input" placeholder="Personal Website URL" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <div></div>
+          <button class="btn-next" onclick="goToStep(2)">Next: Education <span>→</span></button>
+        </div>
+      </section>
+
+      <!-- Step 2: Education -->
+      <section class="form-step" id="step-2">
+        <div class="step-header">
+          <div class="step-badge">Step 2 of 5</div>
+          <h1 class="step-heading">Your <span class="gradient-text">Education</span></h1>
+          <p class="step-desc">Add your degrees, certifications, and courses.</p>
+        </div>
+
+        <div id="educationList" class="dynamic-list">
+          <!-- Education items added dynamically -->
+        </div>
+
+        <button class="btn-add" onclick="addEducation()">
+          <span class="add-icon">+</span> Add Education
+        </button>
+
+        <div class="form-actions">
+          <button class="btn-prev" onclick="goToStep(1)">← Back</button>
+          <button class="btn-next" onclick="goToStep(3)">Next: Experience <span>→</span></button>
+        </div>
+      </section>
+
+      <!-- Step 3: Experience -->
+      <section class="form-step" id="step-3">
+        <div class="step-header">
+          <div class="step-badge">Step 3 of 5</div>
+          <h1 class="step-heading">Work <span class="gradient-text">Experience</span></h1>
+          <p class="step-desc">Showcase your professional journey.</p>
+        </div>
+
+        <div id="experienceList" class="dynamic-list"></div>
+
+        <button class="btn-add" onclick="addExperience()">
+          <span class="add-icon">+</span> Add Experience
+        </button>
+
+        <div class="form-actions">
+          <button class="btn-prev" onclick="goToStep(2)">← Back</button>
+          <button class="btn-next" onclick="goToStep(4)">Next: Skills <span>→</span></button>
+        </div>
+      </section>
+
+      <!-- Step 4: Skills -->
+      <section class="form-step" id="step-4">
+        <div class="step-header">
+          <div class="step-badge">Step 4 of 5</div>
+          <h1 class="step-heading">Skills & <span class="gradient-text">Technologies</span></h1>
+          <p class="step-desc">What tools and technologies do you use?</p>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group full">
+            <label class="form-label">Technical Skills</label>
+            <p class="form-hint">Type a skill and press Enter or comma to add</p>
+            <div class="tag-input-wrapper">
+              <div class="tag-container" id="techTagContainer"></div>
+              <input type="text" id="techSkillInput" class="tag-input" placeholder="e.g. React, Python, AWS..." />
+            </div>
+          </div>
+          <div class="form-group full">
+            <label class="form-label">Soft Skills</label>
+            <div class="tag-input-wrapper">
+              <div class="tag-container" id="softTagContainer"></div>
+              <input type="text" id="softSkillInput" class="tag-input" placeholder="e.g. Leadership, Communication..." />
+            </div>
+          </div>
+          <div class="form-group full">
+            <label class="form-label">Languages</label>
+            <div class="tag-input-wrapper">
+              <div class="tag-container" id="langTagContainer"></div>
+              <input type="text" id="langInput" class="tag-input" placeholder="e.g. English (Native), Spanish (B2)..." />
+            </div>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn-prev" onclick="goToStep(3)">← Back</button>
+          <button class="btn-next" onclick="goToStep(5)">Next: Projects <span>→</span></button>
+        </div>
+      </section>
+
+      <!-- Step 5: Projects & Achievements -->
+      <section class="form-step" id="step-5">
+        <div class="step-header">
+          <div class="step-badge">Step 5 of 5</div>
+          <h1 class="step-heading">Projects & <span class="gradient-text">Achievements</span></h1>
+          <p class="step-desc">Show the world what you've built and accomplished.</p>
+        </div>
+
+        <div id="projectList" class="dynamic-list"></div>
+
+        <button class="btn-add" onclick="addProject()">
+          <span class="add-icon">+</span> Add Project
+        </button>
+
+        <div class="section-divider">
+          <span>Achievements & Awards</span>
+        </div>
+
+        <div id="achievementList" class="dynamic-list"></div>
+
+        <button class="btn-add" onclick="addAchievement()">
+          <span class="add-icon">+</span> Add Achievement
+        </button>
+
+        <div class="form-actions">
+          <button class="btn-prev" onclick="goToStep(4)">← Back</button>
+          <button class="btn-next launch" onclick="goToStep(6)">🚀 Preview & Launch</button>
+        </div>
+      </section>
+
+      <!-- Step 6: Preview & Launch -->
+      <section class="form-step" id="step-6">
+        <div class="step-header">
+          <div class="step-badge">Final Step</div>
+          <h1 class="step-heading">Preview & <span class="gradient-text">Launch</span></h1>
+          <p class="step-desc">Your portfolio is ready. Preview it and choose your deployment option.</p>
+        </div>
+
+        <div class="theme-picker-section">
+          <h3 class="section-label">Choose Your Theme</h3>
+          <div class="theme-grid" id="themeGrid">
+            <div class="theme-card active" data-theme="dark-purple" onclick="selectTheme(this,'dark-purple')">
+              <div class="theme-preview" style="background: linear-gradient(135deg, #0f0c29, #302b63, #24243e)"></div>
+              <span>Dark Purple</span>
+            </div>
+            <div class="theme-card" data-theme="dark-ocean" onclick="selectTheme(this,'dark-ocean')">
+              <div class="theme-preview" style="background: linear-gradient(135deg, #0a0e27, #1a3a6e, #0d7ebf)"></div>
+              <span>Dark Ocean</span>
+            </div>
+            <div class="theme-card" data-theme="light-peachy" onclick="selectTheme(this,'light-peachy')">
+              <div class="theme-preview" style="background: linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%)"></div>
+              <span>Light Peachy</span>
+            </div>
+            <div class="theme-card" data-theme="light-bloom" onclick="selectTheme(this,'light-bloom')">
+              <div class="theme-preview" style="background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)"></div>
+              <span>Light Bloom</span>
+            </div>
+            <div class="theme-card" data-theme="light-minimal" onclick="selectTheme(this,'light-minimal')">
+              <div class="theme-preview" style="background: linear-gradient(135deg, #f8f9fa, #e9ecef, #dee2e6)"></div>
+              <span>Light Minimal</span>
+            </div>
+            <div class="theme-card" data-theme="glass" onclick="selectTheme(this,'glass')">
+              <div class="theme-preview" style="background: linear-gradient(135deg, #667eea, #764ba2, #f64f59)"></div>
+              <span>Aurora</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="launch-actions">
+          <button class="btn-preview" id="previewBtn" onclick="openPreview()">
+            <span>👁</span> Live Preview
+          </button>
+          <button class="btn-download" onclick="downloadPortfolio()">
+            <span>⬇️</span> Download HTML
+          </button>
+          <button class="btn-deploy" onclick="openNetlifyDeploy()">
+            <span>🚀</span> Deploy to Netlify (Free)
+          </button>
+        </div>
+
+        <div class="deploy-guide" id="deployGuide">
+          <h3>🎯 How to get your live portfolio URL</h3>
+          <div class="guide-steps">
+            <div class="guide-step">
+              <div class="guide-num">1</div>
+              <div class="guide-text">Click <strong>"Download HTML"</strong> to download your <code>portfolio.html</code> file</div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-num">2</div>
+              <div class="guide-text">Go to <a href="https://app.netlify.com/drop" target="_blank">netlify.com/drop</a> — no account needed!</div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-num">3</div>
+              <div class="guide-text">Create a folder, put your <code>portfolio.html</code> inside it, rename it to <code>index.html</code></div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-num">4</div>
+              <div class="guide-text">Drag & drop the entire folder onto the Netlify Drop page</div>
+            </div>
+            <div class="guide-step">
+              <div class="guide-num">5</div>
+              <div class="guide-text">🎉 You'll instantly get a live URL like <code>your-name.netlify.app</code> to share anywhere!</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button class="btn-prev" onclick="goToStep(5)">← Back</button>
+          <div></div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Preview Modal -->
+  <div class="preview-modal" id="previewModal">
+    <div class="preview-modal-header">
+      <span class="preview-title">Portfolio Preview</span>
+      <div class="preview-actions">
+        <button class="btn-download-sm" onclick="downloadPortfolio()">⬇️ Download</button>
+        <button class="modal-close" onclick="closePreview()">✕</button>
+      </div>
+    </div>
+    <iframe id="previewIframe" class="preview-iframe"></iframe>
+  </div>
+  <div class="preview-overlay" id="previewOverlay" onclick="closePreview()"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>

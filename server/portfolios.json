@@ -1,0 +1,1953 @@
+[
+  {
+    "name": "Test User",
+    "title": "GenZ Developer",
+    "email": "",
+    "location": "",
+    "phone": "",
+    "bio": "Testing the brand new React rewrite!",
+    "photoUrl": "",
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.S. Computer Science",
+        "institution": "",
+        "year": "",
+        "description": "",
+        "id": 1774439487298
+      }
+    ],
+    "experience": [],
+    "techSkills": [],
+    "softSkills": [],
+    "languages": [],
+    "projects": [],
+    "achievements": [],
+    "theme": "dark-purple",
+    "id": "test-user-5290",
+    "updatedAt": "2026-03-25T11:53:05.290Z"
+  },
+  {
+    "name": "Jane Smith",
+    "title": "Developer",
+    "bio": "Test",
+    "email": "jane@test.com",
+    "location": "SF",
+    "phone": "",
+    "photoUrl": "",
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [],
+    "experience": [],
+    "techSkills": [
+      "React"
+    ],
+    "softSkills": [],
+    "languages": [],
+    "projects": [],
+    "achievements": [],
+    "theme": "dark-purple",
+    "id": "jane-smith-5870",
+    "updatedAt": "2026-03-25T12:48:35.870Z"
+  },
+  {
+    "name": "test u7t",
+    "title": "dfwedfw",
+    "email": "",
+    "location": "",
+    "phone": "",
+    "bio": "fwefewfwef we we",
+    "photoUrl": "",
+    "linkedin": "",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [],
+    "experience": [],
+    "techSkills": [],
+    "softSkills": [],
+    "languages": [],
+    "projects": [],
+    "achievements": [],
+    "theme": "dark-purple",
+    "id": "test-u7t-9083",
+    "updatedAt": "2026-03-25T12:49:39.083Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "light-minimal",
+    "id": "rishab-jain-0560",
+    "updatedAt": "2026-03-25T13:25:20.560Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "glass",
+    "id": "rishab-jain-2311",
+    "updatedAt": "2026-03-25T13:25:22.311Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "light-bloom",
+    "id": "rishab-jain-3969",
+    "updatedAt": "2026-03-25T13:25:23.969Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "dark-purple",
+    "id": "rishab-jain-5423",
+    "updatedAt": "2026-03-25T13:25:25.423Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "dark-ocean",
+    "id": "rishab-jain-6835",
+    "updatedAt": "2026-03-25T13:25:26.835Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "light-peachy",
+    "id": "rishab-jain-8283",
+    "updatedAt": "2026-03-25T13:25:28.283Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "dark-ocean",
+    "id": "rishab-jain-7187",
+    "updatedAt": "2026-03-25T13:30:37.187Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "dark-purple",
+    "id": "rishab-jain-0024",
+    "updatedAt": "2026-03-25T13:30:40.024Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "light-peachy",
+    "id": "rishab-jain-1708",
+    "updatedAt": "2026-03-25T13:30:41.708Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "light-bloom",
+    "id": "rishab-jain-3218",
+    "updatedAt": "2026-03-25T13:30:43.218Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "light-minimal",
+    "id": "rishab-jain-4544",
+    "updatedAt": "2026-03-25T13:30:44.544Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "glass",
+    "id": "rishab-jain-5879",
+    "updatedAt": "2026-03-25T13:30:45.879Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912,
+        "cgpa": "8.38 / 10"
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261,
+        "cgpa": "75.2%"
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842,
+        "cgpa": "72.4%"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "dark-purple",
+    "id": "rishab-jain-0274",
+    "updatedAt": "2026-03-25T13:38:30.274Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912,
+        "cgpa": "8.38 / 10"
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261,
+        "cgpa": "75.2%"
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842,
+        "cgpa": "72.4%"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "dark-ocean",
+    "id": "rishab-jain-1852",
+    "updatedAt": "2026-03-25T13:38:31.852Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912,
+        "cgpa": "8.38 / 10"
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261,
+        "cgpa": "75.2%"
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842,
+        "cgpa": "72.4%"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "light-peachy",
+    "id": "rishab-jain-3263",
+    "updatedAt": "2026-03-25T13:38:33.263Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912,
+        "cgpa": "8.38 / 10"
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261,
+        "cgpa": "75.2%"
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842,
+        "cgpa": "72.4%"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "light-bloom",
+    "id": "rishab-jain-4531",
+    "updatedAt": "2026-03-25T13:38:34.531Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912,
+        "cgpa": "8.38 / 10"
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261,
+        "cgpa": "75.2%"
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842,
+        "cgpa": "72.4%"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "light-minimal",
+    "id": "rishab-jain-5868",
+    "updatedAt": "2026-03-25T13:38:35.868Z"
+  },
+  {
+    "name": "Rishab Jain",
+    "title": "Full Stack Developer",
+    "email": "jrishab086@gmail.com",
+    "location": "Ludhiana, Punjab",
+    "phone": "+91 98720-18450",
+    "bio": "Full Stack Developer with expertise in React.js, Vue 3, Node.js, and Ruby on Rails. Experienced in building scalable web applications with responsive frontends and robust backend services, including cloud solutions on AWS. Passionate about creating clean, efficient, and user-friendly software.",
+    "photoUrl": "",
+    "linkedin": "www.linkedin.com/in/rishab-jain-4a08461a0",
+    "github": "",
+    "twitter": "",
+    "website": "",
+    "education": [
+      {
+        "degree": "B.Tech Computer Science",
+        "institution": "Chandigarh Engineering College, Landran",
+        "year": "2020-2024",
+        "description": "Graduated with a strong foundation in computer science and software engineering, specializing in web development, cloud computing, and full stack application design. Developed practical skills in frontend and backend technologies, preparing for scalable and modern software solutions.",
+        "id": 1774443009912,
+        "cgpa": "8.38 / 10"
+      },
+      {
+        "degree": "Senior Secondary",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2019-2020",
+        "description": "Focused on foundational subjects and built strong analytical and problem-solving skills in science and mathematics.",
+        "id": 1774444689261,
+        "cgpa": "75.2%"
+      },
+      {
+        "degree": "Matriculation",
+        "institution": "Bhartiya Vidya Mandir Senior Secondary School",
+        "year": "2017-2018",
+        "description": "Completed core curriculum with emphasis on academics and development of logical reasoning and learning skills.",
+        "id": 1774444702842,
+        "cgpa": "72.4%"
+      }
+    ],
+    "experience": [
+      {
+        "role": "Software Developer",
+        "company": "Prominent Pixel",
+        "year": "December 2025 – Present",
+        "description": "• Develop scalable and responsive frontend applications using React.js\n\n• Implement backend services with Node.js and REST APIs\n\n• Build cloud-based solutions using AWS (Lambda, Connect, Lex, SES)\n\n• Design modular UI components for SMB service management platform\n\n• Collaborate with cross-functional teams, conduct code reviews, and maintain high-quality standards",
+        "id": 1774443019089
+      },
+      {
+        "role": "Software Developer",
+        "company": "Ampleyen Solutions",
+        "year": " February 2024 – November 2024",
+        "description": "• Built frontend UI using React.js for drone analytics platform (Skyview)\n\n• Integrated frontend with Ruby on Rails backend APIs\n\n• Created responsive and intuitive user interfaces for image processing and annotation\n\n• Contributed to backend bug fixes and enhancements\n\n• Collaborated with product managers and stakeholders to align technical implementation with business goals\n\n• Participated in code reviews and performance optimization",
+        "id": 1774444759170
+      }
+    ],
+    "techSkills": [
+      "React.js",
+      "Vue3",
+      "Javascript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Ruby on Rails",
+      "RESTful APIs",
+      "PostrgreSQL",
+      "AWS DynamoDB",
+      "AWS S3",
+      "AWS Lambda",
+      "AWS Connect",
+      "AWS Lex",
+      "AWS SES",
+      "git",
+      "Jira"
+    ],
+    "softSkills": [
+      "Problem Solving",
+      "Quick Learner",
+      "Team Collaboration",
+      "Time Management",
+      "Adaptability Initiative"
+    ],
+    "languages": [
+      "English",
+      "Hindi",
+      "Punjabi"
+    ],
+    "projects": [
+      {
+        "name": "SMB Service Management Platform",
+        "link": "",
+        "description": "Built a cloud-based platform to help small and medium businesses manage customer bookings, appointments, and service providers. Developed responsive UI components in React.js and backend integrations with Node.js and AWS to automate scheduling, notifications, and customer interactions.",
+        "technologies": "React.js, Node.js, AWS (Lambda Connect Lex SES), DynamoDB, RESTful APIs",
+        "id": 1774443032827
+      },
+      {
+        "name": "Skyview – Drone Analytics Platform",
+        "link": "",
+        "description": "Developed a feature-rich drone analytics platform that processes aerial imagery into actionable insights for infrastructure assessment. Built intuitive frontend components in React.js, integrated with Rails backend, and enabled visual annotation workflows for large-scale building diagnostics.",
+        "technologies": "React.js, Ruby on Rails, PostgreSQL, RESTful APIs",
+        "id": 1774443046910
+      }
+    ],
+    "achievements": [],
+    "theme": "glass",
+    "id": "rishab-jain-7295",
+    "updatedAt": "2026-03-25T13:38:37.295Z"
+  }
+]
