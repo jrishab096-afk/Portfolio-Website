@@ -1,1 +1,1 @@
-https://portfolio-website-git-main-jrishab096-afks-projects.vercel.app/
+https://portfolio-website-six-mu-10.vercel.app/
