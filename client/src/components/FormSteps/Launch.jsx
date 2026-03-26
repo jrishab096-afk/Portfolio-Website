@@ -38,15 +38,17 @@ export default function Launch() {
       const res = await fetch(`${API_BASE_URL}/api/portfolio`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ data }), // Correctly wrap the data
       });
+      
       const result = await res.json();
+      if (!res.ok) throw new Error(result.error || result.details || 'Save failed');
       if (!result.success) throw new Error('Save failed');
 
       window.location.href = `${API_BASE_URL}/download/${result.id}`;
     } catch (err) {
       console.error('Download failed:', err);
-      alert(`Download failed. Make sure the backend is running on ${API_BASE_URL}`);
+      alert(`Download failed: ${err.message}. Make sure the backend is running on ${API_BASE_URL}`);
     }
   };
 
@@ -56,15 +58,18 @@ export default function Launch() {
       const res = await fetch(`${API_BASE_URL}/api/portfolio`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data)
+        body: JSON.stringify({ data }) // Correctly wrap the data
       });
+      
       const result = await res.json();
-      if (result.success) {
+      if (res.ok && result.success) {
         setDeployUrl(`${API_BASE_URL}/p/${result.id}`);
+      } else {
+        throw new Error(result.error || result.details || 'Deployment failed');
       }
     } catch (err) {
       console.error(err);
-      alert(`Failed to connect to backend server. Make sure it is running on ${API_BASE_URL}`);
+      alert(`Failed to connect to backend server: ${err.message}. Make sure it is running on ${API_BASE_URL}`);
     }
     setIsSubmitting(false);
   };

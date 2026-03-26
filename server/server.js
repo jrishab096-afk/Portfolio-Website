@@ -55,8 +55,24 @@ app.get('/api/health', (req, res) => {
 // Save Portfolio
 app.post('/api/portfolio', async (req, res) => {
   try {
-    const { id, data } = req.body;
-    if (!id || !data) return res.status(400).json({ error: 'ID and Data required' });
+    // Be flexible: check for {id, data} or if the body itself is the data
+    let { id, data } = req.body;
+    
+    // If 'data' field is missing, the whole body might be the portfolio data
+    if (!data) {
+      data = req.body;
+      delete data.id; // remove id if it was accidentally part of the data
+    }
+
+    // Generate a short unique ID if not provided
+    if (!id || id === 'undefined') {
+      id = Math.random().toString(36).substring(2, 10);
+      console.log(`✨ Generated new ID: ${id}`);
+    }
+
+    if (!data || Object.keys(data).length === 0) {
+      return res.status(400).json({ error: 'Portfolio data is required' });
+    }
 
     // Upsert (update if exists, otherwise create)
     const savedPortfolio = await Portfolio.findOneAndUpdate({ id }, { data }, { upsert: true, new: true });
